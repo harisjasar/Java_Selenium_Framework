@@ -1,0 +1,64 @@
+{
+  "baseApiUrl": "https://app.zipboard.co/api/v1/",
+  "appUrl": "https://app.zipboard.co",
+  "userName": "<username>",
+  "password": "<password>",
+  "authToken": "<authToken>",
+  "projectId": "ENyATnpQe9EWhWB8c",
+  "chromeDriverVersion": "129.0",
+  "pdfAnnotationsTestData": {
+    "projectName": "Cypress test project",
+    "fileId": "qcKzHEjGNGWWhdENa",
+    "zoomPercentage": "100",
+    "annotationType": {
+      "highlight": {
+        "startXOffset": 401,
+        "startYOffset": 95,
+        "dragDistance": 94,
+        "annotatedText": "Highlight",
+        "annotationData": {
+          "x": 390.79,
+          "y": 74.17999999999999,
+          "width": 92.08799999999997,
+          "height": 26.400000000000006
+        }
+      },
+      "underline": {
+        "startXOffset": 401,
+        "startYOffset": 220,
+        "dragDistance": 105,
+        "annotatedText": "Underline",
+        "annotationData": {
+          "x": 387.91,
+          "y": 192.98,
+          "width": 101.54400000000004,
+          "height": 26.400000000000006
+        }
+      },
+      "squiggly": {
+        "startXOffset": 401,
+        "startYOffset": 134,
+        "dragDistance": 91,
+        "annotatedText": "Squiggly",
+        "annotationData": {
+          "x": 387.91,
+          "y": 113.78,
+          "width": 86.51999999999998,
+          "height": 26.400000000000006
+        }
+      },
+      "strikeout": {
+        "startXOffset": 396,
+        "startYOffset": 169,
+        "dragDistance": 95,
+        "annotatedText": "Strikeout",
+        "annotationData": {
+          "x": 387.91,
+          "y": 153.38,
+          "width": 93.84000000000003,
+          "height": 26.400000000000006
+        }
+      }
+    }
+  }
+}

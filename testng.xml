@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PDF Annotations Suite">
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.PdfViewerTest">
+                <methods>
+                    <include name="shouldAdd_UnderlineAnnotation_OnPDFViewer" />
+                    <include name="shouldAdd_HighlightAnnotation_OnPDFViewer" />
+                    <include name="shouldAdd_SquigglyAnnotation_OnPDFViewer" />
+                    <include name="shouldAdd_StrikeoutAnnotation_OnPDFViewer" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
